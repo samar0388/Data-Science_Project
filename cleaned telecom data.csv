@@ -1,0 +1,67 @@
+,,variable.names(telecom_data),Description,datatype,NoOfRecords,UniqueRecords,DataAvailable,AvailablePercent,Missing,MissingPercent,Minimum,Maximum,Mean,FifthPercentile,TenthPercentile,TwentyFifthPercentile,FiftythPercentile,SeventyFifthPercentile,NinetythPercentile,NinetyfifthPercentile
+,1,mou_Mean,Mean number of monthly minutes of use,numeric,13259,5107,13233,0.998,26,0.002,0,12207,529,22,55,160,365,719,1210,1590
+,2,totmrc_Mean,Mean total monthly recurring charge,numeric,13259,2122,13233,0.998,26,0.002,-6,400,47,10,20,30,45,60,75,85
+,3,rev_Range,Range of revenue (charge amount),numeric,13259,6128,13233,0.998,26,0.002,0,13741,45,0,0,2,16,57,123,172
+,4,mou_Range,Range of number of minutes of use,numeric,13259,1639,13233,0.998,26,0.002,0,43050,382,25,50,114,246,486,858,1178
+,5,change_mou,Percentage change in monthly minutes of use vs previous three month average,numeric,13259,3639,13188,0.995,71,0.005,-2724,31219,-8,-374,-231,-84,-4,66,209,353
+omited,,drop_blk_Mean,Mean number of dropped or blocked calls,numeric,13259,307,13259,1,0,0,0,288,10,0,0,2,5,13,25,35
+,6,drop_vce_Range,Range of number of dropped (failed) voice calls,integer,13259,91,13259,1,0,0,0,229,5,0,0,1,3,7,13,19
+,7,owylis_vce_Range,Range of number of outbound wireless to wireless voice calls,integer,13259,191,13259,1,0,0,0,453,16,0,0,3,9,20,38,56
+,8,mou_opkv_Range,Range of unrounded minutes of use of off-peak voice calls,numeric,13259,9256,13259,1,0,0,0,2654,116,0,1,16,55,139,294,446
+,9,months,Total number of months in service,integer,13259,55,13259,1,0,0,6,60,19,7,8,11,16,24,33,38
+,10,totcalls,Total number of calls over the life of the customer,integer,13259,5816,13259,1,0,0,0,71933,2926,230,400,873,1797,3532,6319,8923
+,11,eqpdays,Number of days (age) of current equipment,integer,13259,1207,13259,1,0,0,-5,1784,377,41,86,202,327,509,726,858
+omit less decile,12,custcare_Mean,Mean number of customer care calls,numeric,13259,137,13259,1,0,0,0,108,2,0,0,0,0,2,5,9
+omit less decile,13,callwait_Mean,Mean number of call waiting calls,numeric,13259,143,13259,1,0,0,0,182,2,0,0,0,0,2,5,9
+omit less decile,14,iwylis_vce_Mean,Mean number of inbound wireless to wireless voice calls,numeric,13259,311,13259,1,0,0,0,344,8,0,0,0,2,9,23,36
+omit less decile,15,callwait_Range,Range of number of call waiting calls,integer,13259,64,13259,1,0,0,0,104,2,0,0,0,0,2,5,8
+omit less decile,16,ccrndmou_Range,Range of rounded minutes of use of customer care calls,integer,13259,156,13259,1,0,0,0,447,7,0,0,0,0,7,21,36
+,17,adjqty,Billing adjusted total number of calls over the life of the customer,integer,13259,5761,13259,1,0,0,0,70025,2885,223,388,858,1773,3485,6238,8824
+,18,ovrrev_Mean,Mean overage revenue,numeric,13259,3330,13233,0.998,26,0.002,0,521,13,0,0,0,1,14,37,62
+,19,rev_Mean,Mean monthly revenue (charge amount),numeric,13259,9363,13233,0.998,26,0.002,-6,3843,59,15,26,34,49,71,103,135
+omit less decile,20,ovrmou_Mean,Mean overage minutes of use,numeric,13259,1233,13233,0.998,26,0.002,0,3472,39,0,0,0,2,40,112,189
+,21,comp_vce_Mean,Mean number of completed voice calls,numeric,13259,1455,13259,1,0,0,0,1377,113,0,4,31,79,155,256,333
+,22,plcd_vce_Mean,Mean number of attempted voice calls placed,numeric,13259,1784,13259,1,0,0,0,2136,149,0,7,42,104,204,338,451
+,23,avg3mou,Average monthly minutes of use over the previous three months,integer,13259,2019,13259,1,0,0,0,7716,533,21,55,159,365,727,1230,1604
+,24,avgmou,Average monthly minutes of use over the life of the customer,numeric,13259,11911,13259,1,0,0,0,7040,489,42,79,179,362,658,1059,1367
+,25,avg3qty,Average monthly number of calls over the previous three months,integer,13259,912,13259,1,0,0,0,2695,184,9,21,58,128,245,410,545
+,26,avgqty,Average monthly number of calls over the life of the customer,numeric,13259,10190,13259,1,0,0,0,2501,176,17,30,64,129,232,371,488
+,27,avg6mou,Average monthly minutes of use over the previous six months,integer,13259,1952,12857,0.97,402,0.03,0,7217,522,30,65,170,371,712,1172,1537
+,28,avg6qty,Average monthly number of calls over the previous six months,integer,13259,895,12857,0.97,402,0.03,0,2470,183,12,25,61,129,243,397,524
+categorical,29,crclscod,Credit class code(cat),factor,13259,48,13259,1,0,0,0,0,0,0,0,0,0,0,0,0
+categorical,30,asl_flag,Account spending limit(cat),factor,13259,2,13259,1,0,0,0,0,0,0,0,0,0,0,0,0
+categorical,31,prizm_social_one,Social group letter only(cat),factor,13259,6,12318,0.929,941,0.071,0,0,0,0,0,0,0,0,0,0
+categorical,32,area,Geographic area(Cat),factor,13259,20,13255,1,4,0,0,0,0,0,0,0,0,0,0,0
+categorical,33,refurb_new,Handset: refurbished or new(cat),factor,13259,2,13259,1,0,0,0,0,0,0,0,0,0,0,0,0
+categorical,34,hnd_webcap,Handset web capability(cat),factor,13259,4,12046,0.909,1213,0.091,0,0,0,0,0,0,0,0,0,0
+categorical,35,marital,Marital status(cat,factor,13259,6,13045,0.984,214,0.016,0,0,0,0,0,0,0,0,0,0
+categorical,36,ethnic,Ethnicity roll-up code(cat),factor,13259,18,13045,0.984,214,0.016,0,0,0,0,0,0,0,0,0,0
+factor convert,37,age1,Age of first household member(cat),integer,13259,43,13045,0.984,214,0.016,0,98,31,0,0,0,36,48,56,62
+factor convert,38,age2,Age of second household member(cat),integer,13259,42,13045,0.984,214,0.016,0,98,21,0,0,0,0,42,54,62
+factor convert,39,models,Number of models issued(cat),integer,13259,9,13259,1,0,0,1,9,2,1,1,1,1,2,3,3
+factor convert,40,hnd_price,Current handset price(cat),numeric,13259,17,13129,0.99,130,0.01,10,500,105,30,30,40,100,150,200,200
+factor convert,41,actvsubs,Number of active subscribers in household(cat),integer,13259,7,13259,1,0,0,0,6,1,1,1,1,1,2,2,2
+factor convert,42,uniqsubs,Number of unique subscribers in the household(cat),integer,13259,10,13259,1,0,0,1,12,2,1,1,1,1,2,3,3
+factor convert,43,forgntvl,Foreign travel dummy variable(cat),integer,13259,3,13045,0.984,214,0.016,0,1,0,0,0,0,0,0,0,1
+omit less decile,44,opk_dat_Mean,Mean number of off-peak data calls,numeric,13259,107,13259,1,0,0,0,304,0,0,0,0,0,0,0,1
+factor convert,45,mtrcycle,Motorcycle indicator(cat),integer,13259,3,13045,0.984,214,0.016,0,1,0,0,0,0,0,0,0,0
+factor convert,46,truck,Truck indicator(cat),integer,13259,3,13045,0.984,214,0.016,0,1,0,0,0,0,0,0,1,1
+omit less decile,47,roam_Mean,Mean number of roaming calls,numeric,13259,1431,13233,0.998,26,0.002,0,3685,1,0,0,0,0,0,2,5
+omit less decile,48,recv_sms_Mean,Mean number of received SMS calls,numeric,13259,30,13259,1,0,0,0,60,0,0,0,0,0,0,0,0
+,49,blck_dat_Mean,Mean number of blocked (failed) data calls,numeric,13259,22,13259,1,0,0,0,35,0,0,0,0,0,0,0,0
+omit less decile,50,mou_pead_Mean,Mean unrounded minutes of use of peak data calls,numeric,13259,752,13259,1,0,0,0,1036,1,0,0,0,0,0,0,1
+churn rate,51,churn,Instance of churn between 31-60 days after observation date(cat),integer,13259,2,13259,1,0,0,0,1,0,0,0,0,0,0,1,1
+categorical,52,car_buy,New or used car buyer(cat),factor,13259,3,13045,0.984,214,0.016,0,0,0,0,0,0,0,0,0,0
+categorical,53,csa,Communications local service area(cat),factor,13259,615,13255,1,4,0,0,0,0,0,0,0,0,0,0,0
+omit less decile,54,da_Mean,Mean number of directory assisted calls,numeric,13259,105,13233,0.998,26,0.002,0,159,1,0,0,0,0,1,3,4
+omit less decile,55,da_Range,Range of number of directory assisted calls,numeric,13259,40,13233,0.998,26,0.002,0,74,2,0,0,0,1,2,5,7
+omit less decile,56,datovr_Mean,Mean revenue of data overage,numeric,13259,224,13233,0.998,26,0.002,0,125,0,0,0,0,0,0,0,1
+omit less decile,57,datovr_Range,Range of revenue of data overage,numeric,13259,184,13233,0.998,26,0.002,0,488,1,0,0,0,0,0,0,2
+omit less decile,58,drop_dat_Mean,Mean number of dropped (failed) data calls,numeric,13259,28,13259,1,0,0,0,207,0,0,0,0,0,0,0,0
+,59,drop_vce_Mean,Mean number of dropped (failed) voice calls,numeric,13259,205,13259,1,0,0,0,222,6,0,0,1,3,8,15,22
+,60,adjmou,Billing adjusted total minutes of use over the life of the customer,numeric,13259,9035,13259,1,0,0,0,211204,7649,583,1076,2450,5128,9719,16585,22568
+,61,totrev,Total revenue,numeric,13259,12696,13259,1,0,0,4,27322,1035,273,349,506,797,1269,1941,2565
+,62,adjrev,Billing adjusted total revenue over the life of the customer,numeric,13259,12651,13259,1,0,0,3,27071,963,213,283,439,728,1193,1858,2465
+,63,avgrev,Average monthly revenue over the life of the customer,numeric,13259,6924,13259,1,0,0,1,902,58,20,30,35,50,70,98,121
+,64,Customer_ID,Unique tournament specific customer ID for scoring purposes,integer,13259,13259,13259,1,0,0,1000005,1099999,1050504,1004946,1009951,1025202,1050077,1076364,1091126,1095500
+categorical,65,retdays_1,Number of days since last retention call,integer,13259,2,13259,1,0,0,0,1,0,0,0,0,0,0,0,0
